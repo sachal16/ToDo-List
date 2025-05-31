@@ -1,3 +1,5 @@
+📝 To-Do List Application
+
 This is a full-stack To-Do List application that allows users to create, view, and manage their personal goals or tasks. 
 It is built using Spring Boot, Thymeleaf, HTML, and a MySQL/PostgreSQL relational database with JPA and Hibernate for ORM.
 
