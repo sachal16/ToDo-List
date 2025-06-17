@@ -1,83 +1,79 @@
-📝 To-Do List Application
+📝 #To-Do List Application
 
-This is a full-stack To-Do List application that allows users to create, view, and manage their personal goals or tasks. 
-It is built using Spring Boot, Thymeleaf, HTML, and a MySQL/PostgreSQL relational database with JPA and Hibernate for ORM.
+A full-stack To-Do List application that allows users to create, view, and manage their personal tasks and goals. 
 
-🔧 Technologies Used:
+Built with Spring Boot, Thymeleaf, and a relational database using JPA and Hibernate for seamless data persistence.
 
-Java 21
-Spring Boot 3.4.5
-Thymeleaf (template engine for HTML rendering)
-HTML5/CSS3 (frontend design)
-JPA & Hibernate (ORM for database interaction)
-MySQL / PostgreSQL (relational database)
-Spring Data JPA (repository layer)
-Maven (project management)
+🔧 Technologies Used
 
-✨ Features:
+Java 21 , Spring Boot 3.4.5
 
-Add new tasks/goals with titles and descriptions
-Mark tasks as completed
-View a list of all goals (pending and completed)
-Delete goals from the list
-Clean and responsive UI built using HTML and Thymeleaf
-Full integration between front-end and back-end
-Persistent data storage using SQL database
+Thymeleaf (template engine for server-side rendering) ,HTML5 / CSS3 (frontend design)
 
-🗂️ Project Structure:
-css
-Copy code
-src/
- └── main/
-     ├── java/
-     │   └── com.app.todoapp/
-     │       ├── controller/
-     │       ├── model/
-     │       ├── repository/
-     │       ├── service/
-     │       └── TodoappApplication.java
-     └── resources/
-         ├── templates/  (Thymeleaf HTML files)
-         ├── static/     (CSS/JS)
-         └── application.properties
+JPA & Hibernate (ORM for database interaction), MySQL / PostgreSQL (relational database)
 
-⚙️ Prerequisites:
+Spring Data JPA (repository abstraction)
+
+Maven (project management & build tool)
+
+✨ #Features
+
+✅ Add new tasks/goals with titles and descriptions
+
+✅ Mark tasks as completed
+
+✅ View all tasks (pending and completed)
+
+✅ Delete tasks
+
+✅ Clean, responsive UI built with Thymeleaf templates
+
+✅ Full integration of front-end and back-end
+
+✅ Persistent data storage using a relational SQL database
+
+🗂️ #Project Structure:
+
+![image](https://github.com/user-attachments/assets/ac0f319f-2772-4d2d-a278-e6971955f075)
+
+
+
+⚙️ #Prerequisites:
 
 Java 21+
+
 Maven
+
 MySQL or PostgreSQL
+
 IDE (e.g., IntelliJ, VS Code)
 
-Setup Instructions:
+#Setup Instructions:
 
-1) Clone the Repository
+1️⃣ Clone the Repository
+   
+![image](https://github.com/user-attachments/assets/1bc1346b-caa4-4075-a92b-a26ae6a46077)
 
-2) bash
-  Copy code
-  git clone https://github.com/your-username/todoapp.git
-  cd todoapp
-  Configure the Database
 
-3) Create a new database (todo_db) in MySQL or PostgreSQL.
 
-4) Update the application.properties file with your database credentials:
-  properties
-  Copy code
-  spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
-  spring.datasource.username=your_username
-  spring.datasource.password=your_password
+2️⃣ Configure the Database
+Create a new database named todo_db in MySQL or PostgreSQL.
+Update src/main/resources/application.properties with your database configuration:
 
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.show-sql=true
-  
-5) Run the Application
+![image](https://github.com/user-attachments/assets/819d0c7c-417e-4bb4-8bdd-330927d8c268)
 
-  bash
-  Copy code
-  ./mvnw spring-boot:run
-  
-6) Access the App
-  Open your browser and go to:
-  arduino
-  Copy code
-  http://localhost:8080
+
+
+
+3️⃣ Run the Application
+
+![image](https://github.com/user-attachments/assets/263dc640-c4f1-4c54-b09f-bd9c3d72ee47)
+
+
+4️⃣ Access the Application
+
+
+![image](https://github.com/user-attachments/assets/59bc38be-85ce-4fa8-8817-149e715ea15d)
+
+
+
